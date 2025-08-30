@@ -1,0 +1,54 @@
+# --- Python / Flask ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual env
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Databáze / logs
+*.sqlite3
+*.db
+instance/
+*.log
+mydatabase.db
+
+# Test/coverage
+.coverage
+htmlcov/
+
+# Env soubory
+.env
+*.env
+backend/.env
+frontend/.env
+
+# --- Node / React (Vite) ---
+node_modules/
+**/node_modules/
+**/dist/
+.vite/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.code-workspace

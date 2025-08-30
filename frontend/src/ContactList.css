@@ -1,0 +1,70 @@
+.contacts-wrap {
+  max-width: 900px;
+}
+
+.contacts-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.contacts-table thead th {
+  text-align: left;
+  font-weight: 600;
+  background: #f3f4f6; 
+  border-bottom: 2px solid #e5e7eb;
+  padding: 0.6rem 0.9rem; 
+  white-space: nowrap;
+}
+
+.contacts-table tbody td {
+  padding: 0.55rem 0.9rem; 
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: middle;
+}
+
+.contacts-table tbody tr:hover {
+  background: #fafafa;
+}
+
+.actions-col {
+  width: 1%;
+  white-space: nowrap;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+
+.btn {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 0.4rem 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn--update {
+  background: #ce870b; 
+  color: #fff;
+}
+.btn--update:hover { background: #d97706; }
+.btn--update:focus { outline: 2px solid #fbbf24; outline-offset: 2px; }
+
+.btn--delete {
+  background: #ef4444;
+  color: #fff;
+}
+.btn--delete:hover { background: #dc2626; }
+.btn--delete:focus { outline: 2px solid #fca5a5; outline-offset: 2px; }
+
+
+.new-contact td {
+  background: #f0fdf4;               
+  border-top: 2px solid #22c55e;     
+  border-bottom: 2px solid #22c55e;
+}
+.new-contact td:first-child { border-left: 2px solid #22c55e; }
+.new-contact td:last-child  { border-right: 2px solid #22c55e; }
