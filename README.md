@@ -7,7 +7,7 @@ Users can **create**, **read**, **update**, and **delete** contacts through a mo
 
 ## Features
 
-- ✨ Add new contacts (name, email, phone, etc.)
+- ✨ Add new contacts 
 - 📋 View a list of all contacts
 - ✏️ Edit existing contact details
 - 🗑️ Delete contacts
