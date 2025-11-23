@@ -38,11 +38,7 @@ Users can **create**, **read**, **update**, and **delete** contacts through a mo
    
 cd backend
 
-2. Install Python dependencies
-
-pip install -r requirements.txt
-
-3. Run the backend server
+2. Run the backend server
 
 run main.py
 
